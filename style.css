@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/WhatsApp\ Image\ 2024-04-13\ at\ 07.11.59\ \(10\).jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+    min-height: 400px;
+    margin-right: 40px;
+    font-size: 16px;
+
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+
+}
+.title{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: white;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;   
+}
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+.sub-menu ul{
+    position: absolute;
+
+}
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: rgb(0,45,117);
+    margin-top: 12px;
+    margin-left: -8px;
+
+}
+.main ul li:hover .sub-menu ul{
+
+display: block;
+margin: 6px;
+
+}
+.main ul li:hover .sub-menu ul li{
+width: 75px;
+padding: 5px;
+border-bottom: 1px #fff;
+background: transparent;
+transition: 0.4 ease;
+text-align: left;
+border-radius: 0;
+
+}
+
